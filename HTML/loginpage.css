@@ -1,0 +1,45 @@
+body {
+    margin-top: auto;
+    margin-left:  30%;
+    margin-right:  30%; 
+    margin-bottom: auto;   
+}
+div.ex {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:x-large;
+}
+div.details {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+.password {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+.button {
+    size-adjust: inherit;
+}
+footer {
+    margin-top: 30%;
+    font-size: smaller;
+}
+tr {
+    spacing: 100px;
+}
+.ex1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:smaller;
+}
+.checkbox {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+fieldset {
+    padding: 15px;
+}
+.button1 {
+    padding: 3px 65px;
+    background-color: rgb(234, 159, 53);
+    border: 1px solid;
+    text-align: center;
+}

@@ -1,0 +1,48 @@
+table {
+    width:500px;
+    text-align: center;
+    color: white;    
+    }
+
+    th.ex1 {
+        background-color:  rgb(246, 246, 43);
+        color: white;
+        padding: 4px;
+        border-radius: 4px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    th.ex2 {
+        background-color: rgb(100, 211, 174);
+        color: white;
+        padding: 4px;
+        border-radius: 4px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    th.ex3 {
+        background-color: rgb(93, 93, 157);
+        color: white;
+        padding: 4px;
+        border-radius: 4px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+td {
+    padding:7px;
+    font-size:x-small;
+    }
+td.ex1 {
+    font-size: xx-large;
+    
+    
+}
+td.ex2 {
+    font-size: xx-large;
+}
+td.ex3 {
+    font-size: xx-large;
+}
+tr {
+    background-color: rgb(68, 64, 64);  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid white;
+}
+

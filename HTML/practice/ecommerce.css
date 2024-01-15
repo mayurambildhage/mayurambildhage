@@ -1,0 +1,48 @@
+body {
+    background-image: url(https://cdn.onlinewebfonts.com/svg/img_277709.png);
+    background-position: top left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:100% ;
+}
+
+.header {
+    color: rgb(163, 11, 166);
+    font-size: large;
+}
+#mycart {
+    margin-right: 100px;
+    font-variant: small-caps;
+}
+#search {
+margin-left: 100px;
+}
+
+input[type=text] {
+    margin-top: 1px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#profile {
+ margin-left: 200px;
+}
+
+ul {
+   
+}
+li {
+    list-style: none;
+    text-decoration: none;
+    
+}
+li {
+    text-decoration: none;
+    padding: 15px 34px;
+    color: #fffffff;
+    background-color: black;
+    float: left;
+    text-align: center;
+}
+
+
+

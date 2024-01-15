@@ -1,0 +1,19 @@
+table {
+border-collapse: collapse;
+border: 1px solid;
+
+}
+th {
+    border-bottom: 1px solid burlywood;
+    background-color: blanchedalmond;
+   
+}
+td {
+    border-bottom: 1px solid burlywood;
+    text-align: center;
+}
+caption {
+    margin-bottom: 10px;
+    text-align: right;
+    background-color: rgb(249, 238, 223);
+}

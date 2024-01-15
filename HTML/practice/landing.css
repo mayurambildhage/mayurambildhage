@@ -1,0 +1,9 @@
+* {
+    background-color: black;
+}
+.nav {
+    color: #fff;
+    display: flex;
+    text-align: center;
+    
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+    <style>
+        body {
+            background-color: rgb(224, 224, 133);
+            counter-reset: section;
+        }
+        h2::before {
+            counter-increment: section;
+            content : "Section." counter(section) " : ";
+        }
+        h3::before {
+            counter-increment: subsection;
+            content: counter(section) "."  counter(subsection) " ";
+        }
+
+        ol {
+            counter-reset :list ;
+            list-style: none;
+        }
+        li::before {
+            counter-increment: list;
+            content: counters(list, ".") " ";
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Countries and Capitals :</h1>
+    <h2>India</h2>
+    <h3>Delhi</h3>
+    <h2>France</h2>
+    <h3>Paris</h3>
+    <h2>Egypt</h2>
+    <h3>Cairo</h3>
+    <h2>Japan</h2>
+    <h3>Tokyo</h3>
+    <h2>Rassia</h2>
+    <h3>Mascow</h3>
+    <h2>Israel</h2>
+    <h3>Jerusalem</h3>
+    <ol>
+        <li>List</li>
+        <li>List</li>
+        <li>List
+            <ol>
+                <li>list</li>
+                <li>list
+                    <ol>
+                        <li>list</li>
+                        <li>list</li>
+                    </ol>
+                </li>
+            </ol>
+            <li>List</li>
+            <li>List</li>
+        </li>
+    </ol>
+</body>
+</html>

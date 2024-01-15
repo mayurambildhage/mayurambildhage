@@ -1,0 +1,51 @@
+body {
+    margin: 8px 0px;
+    padding: 12px 20px;
+    background-color: rgb(233, 244, 201);
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="text"], input {
+    width: 78%;
+}
+input[type="submit"] {
+    width: 100px;
+    background-color: #7465ba;
+    color: #ffffff;
+}
+input[type="text"]:focus {
+    background-color: rgba(187, 184, 219, 0.2);
+    
+}
+select {
+    width: 80%;
+
+}
+input, select {
+    padding:8px;
+    
+}
+.back {
+    background-color:rgba(22, 6, 247, 0.2);
+    padding: 5%;
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(https://hdwpro.com/wp-content/uploads/2016/08/Oil-On-Canvas-Abstract-Art.jpg);
+    color: transparent;
+    background-size: cover;
+    background-position: center ;
+    background-clip: text;
+    -webkit-background-clip:text;
+    }
+.b {
+    background-color: rgba(247, 3, 6, 0.3);
+    margin:10%;
+}
+
